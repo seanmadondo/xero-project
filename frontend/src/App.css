@@ -1,0 +1,25 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading,
+.error,
+.no-data {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.loading {
+  color: #007bff;
+}
+
+.error {
+  color: #dc3545;
+}
+
+.no-data {
+  color: #6c757d;
+}
