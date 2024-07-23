@@ -14,16 +14,13 @@ A one-page application to display the Balance Sheet Report from Xero. It include
 2. **Run the containers**
    In the root of the folder:
 
-   - Update
+   - Run:
 
    ```bash
-   docker pull jaypeng2015/show-me-the-money
-   docker run -p 3000:3000 jaypeng2015/show-me-the-money
-
    docker-compose up --build
    ```
 
-   - mock API is running at localhost:3000
+   - xero-api is running at localhost:3000
    - backend is running at localhost:3001
    - frontend is running at localhost:3002
 
