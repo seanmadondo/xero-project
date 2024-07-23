@@ -2,7 +2,7 @@ import axios from "axios";
 import { Router } from "express";
 
 const router = Router();
-const XERO_API_URL = "http://localhost:3000/api.xro/2.0/Reports/BalanceSheet";
+const XERO_API_URL = "http://xero-api:3000/api.xro/2.0/Reports/BalanceSheet";
 
 router.get("/balance-sheet", async (req, res) => {
   try {
